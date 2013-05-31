@@ -5,11 +5,11 @@ function findAllLinks (contentDocument) {
   {
     if (aElement[i].firstChild.nodeName == "IMG")
     {
-      aElement[i].firstChild.setAttribute("id", "is_linked");
+      aElement[i].firstChild.setAttribute("class", "is_linked");
     }
     else
     {
-      aElement[i].setAttribute("id", "is_linked");
+      aElement[i].setAttribute("class", "is_linked");
     }
   }
   
